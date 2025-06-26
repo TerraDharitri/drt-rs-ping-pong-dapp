@@ -1,0 +1,19 @@
+[package]
+name = "interactor"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8.6"
+tokio = { version = "1.40.0", features = ["full"] }
+
+[dependencies.dharitri-sc-snippets]
+version = "=1.14.0"
+
+# [dependencies.dharitri-sc-snippets]
+# path = "/home/dugong/Documents/my_works-main/rs-sdks/drt-rs-sdk-0.53.0/framework/snippets"
+
